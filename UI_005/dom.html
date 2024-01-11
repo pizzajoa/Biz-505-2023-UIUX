@@ -1,14 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-  <style>
-    div {
-      width: 100px;
-      height: 100px;
-      display: inline-block;
-      border: 1px solid blue;
-      margin: 5px;
-    }
-  </style>
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -16,6 +7,15 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Document</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        border: 1px solid blue;
+        margin: 5px;
+      }
+    </style>
   </head>
   <body>
     <div class="div1"></div>
@@ -36,7 +36,7 @@
     });
     const div3 = document.querySelector("div.div3");
     div3.addEventListener("click", () => {
-      // 값(문자열)에 HTML tag가 포함되면
+      // 값(문자열)에 HTML tag 가 포함되면
       // tag 효과를 반영하여 표시한다
       div3.innerHTML = "<h1>안녕하세요</h1>";
     });
