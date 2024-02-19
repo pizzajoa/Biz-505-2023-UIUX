@@ -84,7 +84,7 @@ a tag 의 width, height, padding 등을 부여하였을때,
 nav a {
   display: inline-block;
   padding: 12px 16px 7px 16px;
-  /* border: 1px solid yellow; */
+
   border-bottom: 3px solid transparent;
   transition: 0.7s;
   margin: 5px 0;
